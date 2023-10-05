@@ -2,7 +2,7 @@
 
 Este é um projeto simples que utiliza a biblioteca MediaPipe e OpenCV para reconhecimento de mãos em uma transmissão de vídeo da webcam. Ele detecta as landmarks (pontos-chave) da mão e desenha conexões entre esses pontos em tempo real.
 
-
+<img src="">
 
 Pré-requisitos
 Antes de executar este código, certifique-se de ter as seguintes bibliotecas instaladas:
