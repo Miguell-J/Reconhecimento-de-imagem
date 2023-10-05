@@ -1,2 +1,2 @@
-# Reconhecimento-de-imagem-com-python
+# Reconhecimento-de-imagem
 Reconhecimento de mãos com opencv e mediapipe
