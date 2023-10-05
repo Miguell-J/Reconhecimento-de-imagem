@@ -2,28 +2,28 @@
 
 Este é um projeto simples que utiliza a biblioteca MediaPipe e OpenCV para reconhecimento de mãos em uma transmissão de vídeo da webcam. Ele detecta as landmarks (pontos-chave) da mão e desenha conexões entre esses pontos em tempo real.
 
-<img src="">
+<img src="./Captura de tela 2023-07-05 163516.png">
 
-Pré-requisitos
+## Pré-requisitos
 Antes de executar este código, certifique-se de ter as seguintes bibliotecas instaladas:
 
-Python 3.x
-OpenCV (pip install opencv-python)
-MediaPipe (pip install mediapipe)
-Como usar
-Clone este repositório em sua máquina local ou faça o download do código-fonte.
+- Python 3.x
+- OpenCV (pip install opencv-python)
+- MediaPipe (pip install mediapipe)
+- Como usar
+- Clone este repositório em sua máquina local ou faça o download do código-fonte.
 
 Abra um terminal na pasta onde o código está localizado.
 
 Execute o código com o seguinte comando:
 
-Copy code
-python nome_do_arquivo.py
+- $python nome_do_arquivo.py
+
 A webcam será ativada, e você verá uma janela exibindo o feed de vídeo da sua webcam com as mãos detectadas e as landmarks desenhadas.
 
 Pressione a tecla "ESC" para encerrar o programa.
 
-Entendendo o Código
+## Entendendo o Código
 O código começa importando as bibliotecas necessárias, como cv2 (OpenCV) e mediapipe.
 
 Ele inicializa a webcam, configurando uma conexão com o dispositivo de índice 0 (geralmente a webcam padrão).
