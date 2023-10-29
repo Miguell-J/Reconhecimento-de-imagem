@@ -17,7 +17,9 @@ Abra um terminal na pasta onde o código está localizado.
 
 Execute o código com o seguinte comando:
 
-- $python nome_do_arquivo.py
+```bash
+python nome_do_arquivo.py
+```
 
 A webcam será ativada, e você verá uma janela exibindo o feed de vídeo da sua webcam com as mãos detectadas e as landmarks desenhadas.
 
